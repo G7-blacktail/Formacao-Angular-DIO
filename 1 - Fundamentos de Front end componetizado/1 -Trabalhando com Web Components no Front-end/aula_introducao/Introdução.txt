@@ -1,0 +1,6 @@
+Pré requisitos:
+
+HTML
+CSS
+JAVASCRIPT
+NODEJS
