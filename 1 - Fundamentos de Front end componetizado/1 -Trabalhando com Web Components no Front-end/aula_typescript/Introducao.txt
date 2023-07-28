@@ -1,0 +1,27 @@
+Agora vamos criar o TypeScript
+
+Instalando: www.TypeScriptlang.org
+
+Criando um projeto com npm:
+> comandos:
+    npm init -y
+    npm install typescript -D
+
+instalando globalmente: npm install -g typescript ou npx
+
+Como rodar o TypeScript?
+como se trata de um superset de javascript, para rodar precisa rodar o comando no terminal: npx tsc <diretorio do código> desta forma ele vai traduzir o conteúdo para javascript.
+
+Configurando o npx tsc:
+
+npx tsc --init criará um arquivo de configuração para o tsc que possibilita a automatização de algumas funções do mesmo.
+
+Deixando isso mais prático:
+
+em package.json vamos criar um script novo, em "scritps" vamos criar start e dentro do valor colocaremos os comandos que desejamos:
+
+"start": "npx tsc && node build/index.js",
+
+E para rodar, colocamos o comando:
+
+npm run start
