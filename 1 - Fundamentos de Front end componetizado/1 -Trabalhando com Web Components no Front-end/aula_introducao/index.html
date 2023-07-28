@@ -5,19 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal de nóticias galático</title>
     <link rel="stylesheet" href="./styles/cards.css">
+    <script src="src/components/CardNews.js" defer></script>
+    <script src="src/components/TituloDinamico.js" defer></script>
 </head>
 <body>
     <div class="container">
         <div class="card">
             <div class="card_left">
                 <span>Gustavo</span>
-                <h1>Darth Vader Contrata Devs</h1>
+                <a href="#">Darth Vader Contrata Devs</a>
                 <p>Darth Vader procura desenvolvedores </p>
             </div>
             <div class="card_right">
-                <img id="imagemSet" src="./assents/darth-vader_5yvm.1200.webp" alt="Imagem do Darth Vader">
+                <img id="imagemSet" src="./assets/darth-vader_5yvm.1200.webp" alt="Imagem do Darth Vader" srcset="">
             </div>
         </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <card-news 
+        autor="Gustavo"
+        title = "Darth Vader Contrata Devs"
+        link-url ="www.google.com"
+        content = "Darth Vader procura desenvolvedores"
+        photo = ""
+        ></card-news>
+        <br>
+        <card-news 
+        autor=""
+        title = "Yoda se pronuncia e choca a republica"
+        link-url ="www.google.com"
+        content = "Iada fala sobre construir componentes"
+        photo = ""
+        ></card-news>
     </div>
+    
+    <!--<titulo-dinamico titulo="Noticia urgente"></titulo-dinamico>-->
+
 </body>
 </html>

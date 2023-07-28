@@ -4,3 +4,8 @@ HTML
 CSS
 JAVASCRIPT
 NODEJS
+
+Sites importantes:
+
+cain I use
+CSS generetor.org
