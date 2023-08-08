@@ -2,9 +2,9 @@
   "name": "aula_typescript",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "Interface.ts",
   "scripts": {
-    "start": "npx tsc && node build/index.js",
+    "start": "npx tsc && node build/Interface.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
