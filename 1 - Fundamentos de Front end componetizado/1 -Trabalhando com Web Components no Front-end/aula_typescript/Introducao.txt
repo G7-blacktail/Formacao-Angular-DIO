@@ -25,3 +25,8 @@ em package.json vamos criar um script novo, em "scritps" vamos criar start e den
 E para rodar, colocamos o comando:
 
 npm run start
+
+Outro comando importante, um servidor local que entende TypeScript: 
+npm install ts-node-dev -D (o argumento -D referese dependencia de desenvolvimento).
+
+Para rodar o comando é : npm run <nome do script> start:dev

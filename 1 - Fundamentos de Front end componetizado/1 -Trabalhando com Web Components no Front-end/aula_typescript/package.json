@@ -1,16 +1,39 @@
 {
+  
   "name": "aula_typescript",
+  
   "version": "1.0.0",
+  
   "description": "",
-  "main": "Interface.ts",
+  
+  "main": "index.ts",
+  
   "scripts": {
-    "start": "npx tsc && node build/Interface.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  
+    
+  "start": "npx tsc && node build/index.js",
+  
+    
+  "start:dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+  
+    
+  "test": "echo \"Error: no test specified\" && exit 1"
+  
   },
+  
   "keywords": [],
+  
   "author": "",
+  
   "license": "ISC",
+  
   "devDependencies": {
-    "typescript": "^5.1.6"
+  
+    
+  "ts-node-dev": "^2.0.0",
+  
+    
+  "typescript": "^5.1.6"
+  
   }
 }
