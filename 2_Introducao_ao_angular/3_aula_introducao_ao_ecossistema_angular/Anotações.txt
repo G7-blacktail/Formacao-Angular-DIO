@@ -1,2 +1,8 @@
 AngularJS != Angular
 
+
+Comandos novos:
+
+code . = Abre nova instancia apenas do código que desejo.
+ng = new generete = cria algo novo no angular, até mesmo o projeto com as configurações básicas
+ng help = mostra todos os comandos do ng
